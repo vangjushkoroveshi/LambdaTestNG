@@ -11,14 +11,14 @@
         </classes>
     </test>
 
-    <test name="LambdaTest - 2">
-        <parameter name="platform" value="Windows 10"/>
-        <parameter name="browser" value="Internet Explorer"/>
-        <parameter name="version" value="11.0"/>
-        <classes>
-            <class name="Tests.LambdaTests"></class>
-        </classes>
-    </test>
+<!--    <test name="LambdaTest - 2">-->
+<!--        <parameter name="platform" value="Windows 10"/>-->
+<!--        <parameter name="browser" value="Internet Explorer"/>-->
+<!--        <parameter name="version" value="11.0"/>-->
+<!--        <classes>-->
+<!--            <class name="Tests.LambdaTests"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name="LambdaTest - 3">
         <parameter name="platform" value="Windows 7"/>
@@ -29,13 +29,13 @@
         </classes>
     </test>
 
-    <test name="LambdaTest - 4">
-        <parameter name="platform" value="macOS Sierra"/>
-        <parameter name="browser" value="MicrosoftEdge"/>
-        <parameter name="version" value="87.0"/>
-        <classes>
-            <class name="Tests.LambdaTests"></class>
-        </classes>
-    </test>
+<!--    <test name="LambdaTest - 4">-->
+<!--        <parameter name="platform" value="macOS Sierra"/>-->
+<!--        <parameter name="browser" value="MicrosoftEdge"/>-->
+<!--        <parameter name="version" value="87.0"/>-->
+<!--        <classes>-->
+<!--            <class name="Tests.LambdaTests"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>
