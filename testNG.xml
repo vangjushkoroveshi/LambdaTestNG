@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LambdaTestNG" thread-count="8" parallel="tests">
+
+    <test name="LambdaTest">
+        <parameter name="platform" value="Windows 10"/>
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="88.0"/>
+        <classes>
+            <class name="Tests.LambdaTests"></class>
+        </classes>
+    </test>
+
+    <test name="LambdaTest">
+        <parameter name="platform" value="Windows 10"/>
+        <parameter name="browser" value="Internet Explorer"/>
+        <parameter name="version" value="11.0"/>
+        <classes>
+            <class name="Tests.LambdaTests"></class>
+        </classes>
+    </test>
+
+    <test name="LambdaTest">
+        <parameter name="platform" value="Windows 7"/>
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="version" value="82.0"/>
+        <classes>
+            <class name="Tests.LambdaTests"></class>
+        </classes>
+    </test>
+
+    <test name="LambdaTest">
+        <parameter name="platform" value="macOS Sierra"/>
+        <parameter name="browser" value="MicrosoftEdge"/>
+        <parameter name="version" value="87.0"/>
+        <classes>
+            <class name="Tests.LambdaTests"></class>
+        </classes>
+    </test>
+
+</suite>
