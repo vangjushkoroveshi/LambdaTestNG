@@ -29,7 +29,7 @@
         </classes>
     </test>
 
-    <test name="LambdaTest - 3">
+    <test name="LambdaTest - 4">
         <parameter name="platform" value="macOS Sierra"/>
         <parameter name="browser" value="MicrosoftEdge"/>
         <parameter name="version" value="87.0"/>
