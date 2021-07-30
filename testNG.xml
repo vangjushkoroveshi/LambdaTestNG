@@ -20,22 +20,22 @@
         </classes>
     </test>
 
-<!--    <test name="LambdaTest - 3">-->
-<!--        <parameter name="platform" value="Windows 7"/>-->
-<!--        <parameter name="browser" value="Firefox"/>-->
-<!--        <parameter name="version" value="82.0"/>-->
-<!--        <classes>-->
-<!--            <class name="Tests.LambdaTests"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-    <test name="LambdaTest - 4">
-        <parameter name="platform" value="macOS Sierra"/>
-        <parameter name="browser" value="MicrosoftEdge"/>
-        <parameter name="version" value="87.0"/>
+    <test name="LambdaTest - 3">
+        <parameter name="platform" value="Windows 7"/>
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="version" value="82.0"/>
         <classes>
             <class name="Tests.LambdaTests"></class>
         </classes>
     </test>
+
+<!--    <test name="LambdaTest - 4">-->
+<!--        <parameter name="platform" value="macOS Sierra"/>-->
+<!--        <parameter name="browser" value="MicrosoftEdge"/>-->
+<!--        <parameter name="version" value="87.0"/>-->
+<!--        <classes>-->
+<!--            <class name="Tests.LambdaTests"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>
