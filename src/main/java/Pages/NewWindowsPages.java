@@ -35,10 +35,12 @@ public class NewWindowsPages extends BasePages {
         String currentUrl = driver.getCurrentUrl();
 
         //Scroll to the bottom
-        js.executeScript("window.scrollTo(0, Math.max(document.documentElement.scrollHeight, document.body.scrollHeight, document.documentElement.clientHeight));");
+        //scroll to the footer of the page
+        js.executeScript("arguments[0].scrollIntoView();",driver.findElement(By.xpath("//footer[@class='footer']")));
 
         //Scroll to the top
-        js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
+        //scroll to the header of the page
+        js.executeScript("arguments[0].scrollIntoView();",driver.findElement(By.xpath("//p[@class='bard-com']")));
 
         // Close the new window
         driver.close();
